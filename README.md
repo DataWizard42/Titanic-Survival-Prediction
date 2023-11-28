@@ -1,9 +1,10 @@
 # Titanic Survival Prediction
-Overview
+# Overview
+
 This project is focused on predicting the survival of passengers aboard the Titanic based on various features such as age, gender, class, and more. The dataset used for this analysis is the famous Titanic dataset, which contains information about passengers who were aboard the Titanic, including whether they survived or not.
 
-Contents
-Introduction
+# Contents
+# Introduction
 
 Background information on the Titanic dataset and the goal of the project.
 Dataset
@@ -27,16 +28,16 @@ Information about the machine learning models used for predicting survival.
 Evaluation
 
 Metrics used to evaluate the performance of the models.
-Results
+# Results
 
 Summary of the model performance and key findings.
-Conclusion
+# Conclusion
 
 Concluding remarks and potential areas for future improvement.
-Dataset
+# Dataset
 The dataset used for this project is the Titanic dataset, which contains information on passengers, such as name, age, gender, ticket class, fare, and survival status. The target variable is binary: 1 for survived and 0 for not survived.
 
-Installation
+# Installation
 To run the code in this project, you need to have Python installed. Additionally, the following Python libraries are used and can be installed using the provided requirements file:
 
 bash
@@ -46,27 +47,27 @@ Usage
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/titanic-survival.git
+git clone https://github.com/DataWizard42/titanic-survival.git
 cd titanic-survival
 Install dependencies:
 bash
 Copy code
-pip install -r requirements.txt
+# pip install -r requirements.txt
 Run the Jupyter notebooks or Python scripts for data preprocessing, exploratory data analysis, and modeling.
 Data Preprocessing
 The data preprocessing steps include handling missing values, encoding categorical variables, and scaling numerical features. Refer to the preprocess_data.ipynb notebook for detailed information.
 
-Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 Explore the dataset using visualizations to gain insights into the characteristics of the passengers and their survival outcomes. Refer to the eda.ipynb notebook for detailed information.
 
-Modeling
+# Modeling
 Train machine learning models to predict survival based on the features of the passengers. Refer to the train_model.ipynb notebook for detailed information.
 
-Evaluation
+# Evaluation
 Evaluate the performance of the trained models using relevant metrics such as accuracy, precision, recall, and F1 score. Refer to the evaluate_model.ipynb notebook for detailed information.
 
-Results
+# Results
 Summarize the key findings and results of the analysis. Include any insights gained from the exploratory data analysis and the performance of the machine learning models.
 
-Conclusion
+# Conclusion
 Provide concluding remarks on the project, discuss the limitations, and suggest potential areas for improvement. Consider sharing insights that can be used for future work or enhancements.
